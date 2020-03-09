@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
 	<title>Mail Filters</title>
-	<id>tag:mail.google.com,2008:filters:z0000001583426879886*3385947237261077573,z0000001583432916110*3603865871925222515,z0000001583433031615*3533118275532636833,z0000001583433281477*5073203093342413352,z0000001583433464345*8918049752288106743,z0000001583433543828*8468905030208305328,z0000001583433624625*2183926260205556004</id>
-	<updated>2020-03-05T18:41:28Z</updated>
+	<id>tag:mail.google.com,2008:filters:z0000001583426879886*3385947237261077573,z0000001583432916110*3603865871925222515,z0000001583433031615*3533118275532636833,z0000001583433281477*5073203093342413352,z0000001583433464345*8918049752288106743,z0000001583433543828*8468905030208305328,z0000001583433624625*2183926260205556004,z0000001583760345897*5140246491368258751</id>
+	<updated>2020-03-09T14:46:35Z</updated>
 	<author>
 		<name>Robert Norrie</name>
 		<email>robertnorrie@github.com</email>
@@ -11,7 +11,7 @@
 		<category term='filter'></category>
 		<title>Mail Filter</title>
 		<id>tag:mail.google.com,2008:filter:z0000001583426879886*3385947237261077573</id>
-		<updated>2020-03-05T18:41:28Z</updated>
+		<updated>2020-03-09T14:46:35Z</updated>
 		<content></content>
 		<apps:property name='from' value='no-reply@slack.com'/>
 		<apps:property name='label' value='Slack Notifications'/>
@@ -24,7 +24,7 @@
 		<category term='filter'></category>
 		<title>Mail Filter</title>
 		<id>tag:mail.google.com,2008:filter:z0000001583432916110*3603865871925222515</id>
-		<updated>2020-03-05T18:41:28Z</updated>
+		<updated>2020-03-09T14:46:35Z</updated>
 		<content></content>
 		<apps:property name='from' value='riskinsights@internationalsos.com'/>
 		<apps:property name='label' value='SOS Warnings'/>
@@ -36,7 +36,7 @@
 		<category term='filter'></category>
 		<title>Mail Filter</title>
 		<id>tag:mail.google.com,2008:filter:z0000001583433031615*3533118275532636833</id>
-		<updated>2020-03-05T18:41:28Z</updated>
+		<updated>2020-03-09T14:46:35Z</updated>
 		<content></content>
 		<apps:property name='from' value='calendar-notification@google.com'/>
 		<apps:property name='label' value='Calendar Notifications'/>
@@ -49,7 +49,7 @@
 		<category term='filter'></category>
 		<title>Mail Filter</title>
 		<id>tag:mail.google.com,2008:filter:z0000001583433281477*5073203093342413352</id>
-		<updated>2020-03-05T18:41:28Z</updated>
+		<updated>2020-03-09T14:46:35Z</updated>
 		<content></content>
 		<apps:property name='subject' value='Invitation:'/>
 		<apps:property name='label' value='Calendar Notifications'/>
@@ -61,7 +61,7 @@
 		<category term='filter'></category>
 		<title>Mail Filter</title>
 		<id>tag:mail.google.com,2008:filter:z0000001583433464345*8918049752288106743</id>
-		<updated>2020-03-05T18:41:28Z</updated>
+		<updated>2020-03-09T14:46:35Z</updated>
 		<content></content>
 		<apps:property name='from' value='notification@slack-mail.com'/>
 		<apps:property name='label' value='Slack Notifications'/>
@@ -74,7 +74,7 @@
 		<category term='filter'></category>
 		<title>Mail Filter</title>
 		<id>tag:mail.google.com,2008:filter:z0000001583433543828*8468905030208305328</id>
-		<updated>2020-03-05T18:41:28Z</updated>
+		<updated>2020-03-09T14:46:35Z</updated>
 		<content></content>
 		<apps:property name='from' value='notifications@github.com'/>
 		<apps:property name='label' value='GitHub Notifications'/>
@@ -87,12 +87,26 @@
 		<category term='filter'></category>
 		<title>Mail Filter</title>
 		<id>tag:mail.google.com,2008:filter:z0000001583433624625*2183926260205556004</id>
-		<updated>2020-03-05T18:41:28Z</updated>
+		<updated>2020-03-09T14:46:35Z</updated>
 		<content></content>
 		<apps:property name='from' value='noreply@github.com'/>
 		<apps:property name='label' value='Team Emails'/>
 		<apps:property name='shouldArchive' value='true'/>
 		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001583760345897*5140246491368258751</id>
+		<updated>2020-03-09T14:46:35Z</updated>
+		<content></content>
+		<apps:property name='from' value='developer@githubsupport.com'/>
+		<apps:property name='subject' value='[GitHub Support]'/>
+		<apps:property name='hasTheWord' value='This ticket has been updated.'/>
+		<apps:property name='label' value='Tickets Updated'/>
+		<apps:property name='shouldArchive' value='true'/>
 		<apps:property name='sizeOperator' value='s_sl'/>
 		<apps:property name='sizeUnit' value='s_smb'/>
 	</entry>
