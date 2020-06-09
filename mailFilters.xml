@@ -110,4 +110,16 @@
 		<apps:property name='sizeOperator' value='s_sl'/>
 		<apps:property name='sizeUnit' value='s_smb'/>
 	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001591694084445*7555913413874716452</id>
+		<updated>2020-06-09T09:15:10Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@md.getsentry.com'/>
+		<apps:property name='label' value='sentry'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
 </feed>
